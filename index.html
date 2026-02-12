@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h2 id="about">About Me</h2>
+<p>
+Hello! I am Dhanush Department of 
+<abbr title="Artificial Intelligence And Machine Learning">AIML</abbr> 
+From 
+<abbr title="Bannari Amman Institute of Technology">BIT</abbr> 
+Erode - Sathyamangalam - 638001
+</p>
+
+
+
+<p>I am Engineering UG student.</p>
+<p>My goal is become a prefessional web developer create innovative and responsive web applications.</p>
+
+
+<h2 id="skills">Skills</h2>
+<p>CSS</p>
+<p>HTML</p>
+<p>C</p>
+<p>C++</p>
+<p>Python</p>
+
+
+<h2 id="projects">Projects</h2>
+<p>1. Student Registration Form</p>
+<p>The Student Registration Form is a basic web development project designed to collect student information through an online form. This project is developed using HTML and CSS to create a structured and user-friendly interface.
+
+The main purpose of this project is to understand how web forms work and how user data can be collected using different input fields. It demonstrates the use of text fields, password fields, radio buttons, and form validation techniques.
+
+This project helps in building a strong foundation in frontend web development.</p>
+<p>2. Weather App</p>
+<p>The Weather App is a web-based application developed to display real-time weather information of a selected city. This project is created using HTML, CSS, and JavaScript.
+
+The main purpose of this application is to fetch and display current weather details such as temperature, humidity, and weather conditions using a weather API.
+
+This project helps in understanding how APIs work and how dynamic data can be displayed on a webpage.</p>
+
+
+
+<h2>Contact</h2>
+
+<form id="contactForm">
+  <label>Name:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>Password:</label><br>
+  <input type="password" name="password" required><br><br>
+
+  <label>Message:</label><br>
+  <textarea name="message" required></textarea><br><br>
+
+  <input type="submit" value="Send Message">
+</form>
+
+
+
+<script>
+const form = document.getElementById("contactForm");
+const messagesDiv = document.getElementById("messages");
+
+form.addEventListener("submit"), function(event) {
+  event.preventDefault(); 
+
+  const name = form.elements["name"].value;
+  const password = form.elements["password"].value;
+  const message = form.elements["message"].value;
+
+  
+  
+  
+  form.reset();
+}
+</script>
+
+</script>
+</body>
+</html>
+  
